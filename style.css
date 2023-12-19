@@ -44,3 +44,13 @@ main {
 .convite .link:hover {
   color: #949393;
 }
+
+@media (max-width: 487px) {
+  .convite {
+    text-align: center;
+    width: 100vw;
+  }
+  .convite img {
+    width: 100vw;
+  }
+}
