@@ -7,17 +7,22 @@
 }
 
 body {
+  width: 100%;
   background-color: #c7d9be;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 main {
-  width: 100vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .convite {
-  width: 100vw;
+  width: 65%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   position: relative;
@@ -25,7 +30,6 @@ main {
 }
 
 .convite img {
-  width: 35vw;
   height: 100vh;
   box-shadow: 1px 2px 50px black;
 }
